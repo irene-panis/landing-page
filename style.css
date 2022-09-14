@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  height: 100vh;
 }
 
 .header {
@@ -138,4 +139,50 @@ button {
   margin: 0 17% 10% 17%;
   font-weight: bolder;
   font-size: 24px;
+}
+
+.call-to-action {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  border-radius: 10px;
+  width: 90%;
+  padding: 4% 15%;
+  margin: 7% 2%;
+}
+
+.cta-text {
+  color: white;
+}
+
+.cta-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta-subtext, .cta-sign-up {
+  font-size: 18px;
+}
+
+.cta-sign-up {
+  color: #F9FAF8;
+  font-weight: bold;
+  border: 2px solid #F9FAF8;
+  padding: 8px 42px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  padding: 30px 0 30px 0;
 }
