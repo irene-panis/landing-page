@@ -1,6 +1,12 @@
+@font-face {
+  src: url("fonts/CallingCode.ttf");
+  font-family: "Calling Code";
+}
+
 body {
-  background-color: #1F2937;
-  font-family: "Roboto", Helvetica, sans-serif;
+  background-image: url("img/stellar.webp");
+  background-position: center;
+  font-family: "Calling Code", "Courier New", monospace;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -11,13 +17,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 2% 10%;
+  margin: 1% 20%;
 }
 
 .header-logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #F9FAF8;
+  height: 50px;
+  width: auto;
 }
 
 ul {
@@ -31,54 +36,44 @@ ul {
 .header-links a {
   text-decoration: none;
   font-size: 18px;
-  color: #E5E7EB;
+  color: black;
+  text-transform: uppercase;
+
 }
 
 .introduction {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  margin: 70px 10%;
-  gap: 40px;
+  margin: 70px 6%;
+  padding-bottom: 500px;
 }
 
-
-.introduction div {
-  flex: 1;
+.introduction-text {
+  width: 60%;
+  color: black;
 }
-
-.introduction-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #E5E7EB;
-  background-color: grey;
-}
-
 
 .main-title {
-  font-size: 48px;
+  font-size: 95px;
   font-weight: 900;
-  color: #F9FAF8;
 }
 
 .main-subtext {
-  font-size: 18px;
-  color: #E5E7EB;
+  width: 80%;
+  font-size: 25px;
 }
 
 button {
-  background-color: #3882F6;
-  border-radius: 10px;
+  font-family: "Calling Code";
+  text-transform: uppercase;
 }
 
 .main-sign-up {
   font-weight: bold;
-  padding: 5px 20px;
+  padding: 10px 30px;
+  background-color: black;
   color: #F9FAF8;
-  font-size: 18px;
-  border: 1px solid #3882F6;
-  margin-top: 12px;
+  font-size: 21px;
+  border: 1px solid black;
+  margin-top: 40px;
 }
 
 .random-info {
@@ -130,7 +125,7 @@ button {
 .quote {
   font-size: 36px;
   font-style: italic;
-  margin: 10% 17% 0 17%;
+  margin: 10% 20% 0 20%;
 }
 
 .author {
@@ -154,8 +149,8 @@ button {
   justify-content: space-between;
   gap: 50px;
   border-radius: 10px;
-  width: 90%;
-  padding: 4% 15%;
+  width: 50%;
+  padding: 4% 10%;
   margin: 7% 2%;
 }
 
@@ -184,5 +179,6 @@ button {
   justify-content: center;
   align-items: center;
   color: #E5E7EB;
+  background-color: black;
   padding: 30px 0 30px 0;
 }
