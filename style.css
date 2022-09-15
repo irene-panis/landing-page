@@ -10,6 +10,8 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
+  background-image: url("img/stellar.webp");
+  background-position: center;
 }
 
 .header {
@@ -39,18 +41,14 @@ ul {
 
 }
 
-.bg-img {
-  background-image: url("img/stellar.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  display: inline-block;
-}
-
 .introduction-text {
   margin: 70px 6%;
   width: 60%;
   color: black;
+}
+
+.introduction {
+  padding-bottom: 500px;
 }
 
 .main-title {
