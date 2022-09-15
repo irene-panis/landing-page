@@ -4,8 +4,6 @@
 }
 
 body {
-  background-image: url("img/stellar.webp");
-  background-position: center;
   font-family: "Calling Code", "Courier New", monospace;
   display: flex;
   flex-direction: column;
@@ -41,12 +39,16 @@ ul {
 
 }
 
-.introduction {
-  margin: 70px 6%;
-  padding-bottom: 500px;
+.bg-img {
+  background-image: url("img/stellar.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
 }
 
 .introduction-text {
+  margin: 70px 6%;
   width: 60%;
   color: black;
 }
